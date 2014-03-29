@@ -1,0 +1,23 @@
+﻿{
+  // 这个字段将用在安装对话框，扩展管理界面，和store里面，弹出通知的标题
+  "name": "图片视频转字符画app版",
+  // 扩展的版本用一个到4个数字来表示，中间用点隔开,必须在0到65535之间，非零数字不能0开头
+  "version": "2.1.0",
+  // 描述扩展的一段字符串（不能是html或者其他格式，不能超过132个字符）。这个描述必须对浏览器扩展的管理界面和Chrome Web Store都合适。
+  "description": "基于HTML5实现的多功能播放器，选择一个本地视频、音频、图片即可查看效果，其中图片和视频会转为字符画，音频直接播放。",
+  "app": {
+        "launch": {
+            "local_path": "Ascii.html"
+        }
+   },
+  //该扩展程序的主页URL
+  "homepage_url": "http://3xholic.duapp.com/works/Ascii",
+  // 一个或者多个图标来表示扩展，app，和皮肤
+  "icons": {
+  	"16": "images/16.png",  //  应用的网页图标
+  	"48": "images/48.png",  // 应用管理页面需要这个图标
+  	"128": "images/128.png"  // 在webstore安装的时候使用
+  },
+  // Manifest version 1在Chrome18中已经被弃用了，这里应该指定为2
+  "manifest_version": 2
+}
