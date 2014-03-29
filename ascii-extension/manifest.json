@@ -22,6 +22,7 @@
     "default_title": "图片视频转字符画",
     "default_icon": "images/19.png"
   },
+  "update_url": "https://github.com/zyj2134/chrome-ascii/raw/master/ascii-extension-updates.xml",
   // Manifest version 1在Chrome18中已经被弃用了，这里应该指定为2
   "manifest_version": 2
 }

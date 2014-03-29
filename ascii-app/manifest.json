@@ -18,6 +18,7 @@
   	"48": "images/48.png",  // 应用管理页面需要这个图标
   	"128": "images/128.png"  // 在webstore安装的时候使用
   },
+  "update_url": "https://github.com/zyj2134/chrome-ascii/raw/master/ascii-app-updates.xml",
   // Manifest version 1在Chrome18中已经被弃用了，这里应该指定为2
   "manifest_version": 2
 }
